@@ -16,7 +16,7 @@ print(idx)
 for i, face in enumerate(faceDetected):
     print(i)
     print(face)
-    print("Detection: {}, score: {}, Sub-detector: {}".format(face, score[i], subdetector[idx[i]]))
+    print("Detection: {}, score: {:.4f}, Sub-detector: {}".format(i, score[i], subdetector[int(idx[i])]))
     l, t, r, b = (int(face.left()), int(face.top()), int(face.right()), int(face.bottom()))
     cv2.rectangle(image, (l, t), (r, b), (0, 0, 255), 2)
 
