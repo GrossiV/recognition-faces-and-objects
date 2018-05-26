@@ -37,10 +37,29 @@ for arquive in glob.glob(os.path.join("photos/training","*.jpg")):
         #print(listDescritorFacial)
 
         npArrayDescritorFacial = np.asarray(listDescritorFacial, dtype=np.float64)
-        print(npArrayDescritorFacial)
+        #print(npArrayDescritorFacial)
+
+        npArrayDescritorFacial = npArrayDescritorFacial[np.newaxis, : ]
+        #print(npArrayDescritorFacial)
+
+        if descriptionFace is None:
+            descriptionFace = npArrayDescritorFacial
+        else:
+            descriptionFace = np.concatenate((descriptionFace, npArrayDescritorFacial), axis=0)
+
+        indice[idx] = arquive
+        idx += 1
 
     #cv2.imshow("Training", image)
     #cv2.waitKey(0)
+
+print("Size: {} Format: {}".format(len(descriptionFace), descriptionFace.shape))
+    #print(descritorFacial)
+    #print(indice)
+
+np.save("assets/descritors_rn.npy", descritorFacial)
+with open("assets/indices_rn.pickle", 'wb') as f:
+    cPickle.dump(indice, f)
 
 #cv2.destroyAllWindows()
 
