@@ -26,8 +26,21 @@ for arquive in glob.glob(os.path.join("photos/training","*.jpg")):
         print("No face detected in archives {}".format(arquive))
         exit()
 
-    cv2.imshow("Training", image)
-    cv2.waitKey(0)
+    for face in facesDetected:
+        pointsFacial = detectorPoints(image, face)
+        descritorFacial = recognitionFace.compute_face_descriptor(image, pointsFacial)
+        #print(format(arquive))
+        #print(len(descritorFacial))
+        #print(descritorFacial)
 
-cv2.destroyAllWindows()
+        listDescritorFacial = [df for df in descritorFacial]
+        #print(listDescritorFacial)
+
+        npArrayDescritorFacial = np.asarray(listDescritorFacial, dtype=np.float64)
+        print(npArrayDescritorFacial)
+
+    #cv2.imshow("Training", image)
+    #cv2.waitKey(0)
+
+#cv2.destroyAllWindows()
 
