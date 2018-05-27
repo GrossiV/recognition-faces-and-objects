@@ -13,7 +13,7 @@ indice = {}
 idx = 0
 descriptionFace = None
 
-for arquive in glob.glob(os.path.join("photos/training","*.jpg")):
+for arquive in glob.glob(os.path.join("photos/ronald/training","*.jpg")):
     image = cv2.imread(arquive)
     facesDetected = detectorFace(image, 1)
     numberFacesDetected = len(facesDetected)
@@ -39,7 +39,7 @@ for arquive in glob.glob(os.path.join("photos/training","*.jpg")):
         npArrayDescritorFacial = np.asarray(listDescritorFacial, dtype=np.float64)
         #print(npArrayDescritorFacial)
 
-        npArrayDescritorFacial = npArrayDescritorFacial[np.newaxis, : ]
+        npArrayDescritorFacial = npArrayDescritorFacial[np.newaxis, :]
         #print(npArrayDescritorFacial)
 
         if descriptionFace is None:
@@ -53,11 +53,11 @@ for arquive in glob.glob(os.path.join("photos/training","*.jpg")):
     #cv2.imshow("Training", image)
     #cv2.waitKey(0)
 
-print("Size: {} Format: {}".format(len(descriptionFace), descriptionFace.shape))
+        print("Size: {} Format: {}".format(len(descriptionFace), descriptionFace.shape))
     #print(descritorFacial)
     #print(indice)
 
-np.save("assets/descritors_rn.npy", descritorFacial)
+np.save("assets/descritors_rn.npy", descriptionFace)
 with open("assets/indices_rn.pickle", 'wb') as f:
     cPickle.dump(indice, f)
 
