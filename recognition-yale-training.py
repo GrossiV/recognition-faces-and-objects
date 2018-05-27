@@ -59,8 +59,8 @@ for arquive in glob.glob(os.path.join("yalefaces/training", "*.jpg")):
     #print(descritorFacial)
     #print(indice)
 
-np.save("assets/descritors_yale.npy", descriptionFace)
-with open("assets/indices_yale.pickle", 'wb') as f:
+np.save("assets/descritors_yales.npy", descriptionFace)
+with open("assets/indices_yales.pickle", 'wb') as f:
     cPickle.dump(indice, f)
 
 #cv2.destroyAllWindows()
