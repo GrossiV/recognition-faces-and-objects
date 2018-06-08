@@ -11,8 +11,7 @@
 Estudo que apresenta conceitos e técnicas sobre o uso de computer vision em função de detecção de faces e objetos. O objetivo principal desta pesquisa é mostrar como é a
 composição de um sistema que realiza detecção e reconhecimento facial, utilizando-se de algoritmos e bibliotecas de linguagem de programação e fazer uma comparação entre as
 abordagens utilizadas.
-Este é um projeto inicialmente acadêmico para avaliação do projeto interdisciplinar do módulo Certificate in Web Design pelo 
-[Centro Universitário UNIBTA](http://www.ibta.edu.br/) para o curso de Sistemas para Internet - 5º semestre.
+Este é um projeto inicialmente acadêmico para avaliação do projeto interdisciplinar do módulo Certificate in Web Design pelo <a href = "http://www.ibta.edu.br/" alt="Website da UNIBTA">Centro Universitário UNIBTA</a> para o curso de Sistemas para Internet - 5º semestre.
 
 ## Ambiente de Desenvolvimento 
   - Pycharm Community Edition 2017.3
