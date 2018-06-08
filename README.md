@@ -1,5 +1,5 @@
 # Reconhecimento de Faces e Objetos
-[![license]  (https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+![[license]  (https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 Estudo que apresenta conceitos e técnicas sobre o uso de computer vision em função de detecção de faces e objetos. O objetivo principal desta pesquisa é mostrar como é a
 composição de um sistema que realiza detecção e reconhecimento facial, utilizando-se de algoritmos e bibliotecas de linguagem de programação e fazer uma comparação entre as
 abordagens utilizadas.
