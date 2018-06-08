@@ -21,14 +21,18 @@ Este é um projeto inicialmente acadêmico para avaliação do projeto interdisc
 **Andre Corte Brilho**
 - Github: [@andrebrilho](https://github.com/andrebrilho)
 
+
 **Claudia Hikary Yamada**
 - Github: [@Hikaryamada](https://github.com/Hikaryamada)
+
 
 **Guilherme Bezerra dos Santos**
 - Github: [@gbdsantos](https://www.linkedin.com/in/gbdsantos/)
 - LinkedIn: [@gbdsantos](https://www.linkedin.com/in/gbdsantos/)
 	
+	
 **Héricles Thomas da Silva**  
+  
   
 **Victor Grossi**
 - Github: [@GrossiV](https://github.com/GrossiV)
