@@ -6,7 +6,8 @@ abordagens utilizadas.
 Este é um projeto inicialmente acadêmico para avaliação do projeto interdisciplinar do módulo Certificate in Web Design pelo [Centro Universitário UNIBTA](http://http://www.ibta.edu.br/) para o curso de Sistemas para Internet - 5º semestre.
 
 ## Ambiente de Desenvolvimento
-  ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
+    <img src="https://img.shields.io/github/commitshttps://github.com/gbdsantos/recognition-faces-and-objects/docs/badges/python-v3.6.5-yellow.svg" alt="Website Python"></a>
+    <a href="https://www.python.org/">
   - Anaconda v5.2
   - Pycharm Community Edition 2017.3
 
