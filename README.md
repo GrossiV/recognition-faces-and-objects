@@ -13,7 +13,7 @@ composição de um sistema que realiza detecção e reconhecimento facial, utili
 abordagens utilizadas.
 Este é um projeto inicialmente acadêmico para avaliação do projeto interdisciplinar do módulo Certificate in Web Design pelo <a href = "http://www.ibta.edu.br/" alt="Website da UNIBTA">Centro Universitário UNIBTA</a> para o curso de Sistemas para Internet - 5º semestre.
 
-A dissertação está disponível para leitura  <a href="https://github.com/gbdsantos/recognition-faces-and-objects/blob/master/docs/computer-vision-recognition-objects-and-faces">aqui</a>.
+A dissertação está disponível para leitura  <a href="https://github.com/gbdsantos/recognition-faces-and-objects/blob/master/docs/computer-vision-recognition-objects-and-faces.pdf">aqui</a>.
 
 ## Ambiente de Desenvolvimento 
   - Pycharm Community Edition 2017.3
